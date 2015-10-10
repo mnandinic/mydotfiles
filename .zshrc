@@ -113,7 +113,7 @@ function makePS1()
   echo -n $clr1
   
   case "$USER" in
-    kapil) 
+    nandini) 
     ;;
     root) 
       echo -n $clr2
@@ -260,7 +260,7 @@ zstyle ':completion:*' preserve-prefix '//[^/]##/|HEAD'
 zstyle ':completion:*' squeeze-slashes true
 zstyle ':completion:*' use-compctl false
 zstyle ':completion:*' verbose false
-zstyle :compinstall filename '/home/kapil/.zshrc'
+zstyle :compinstall filename '/home/nandini/.zshrc'
 
 # End of lines added by compinstall
 

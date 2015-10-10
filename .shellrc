@@ -32,7 +32,6 @@ export MAKEFLAGS="-j $NUM_PROCESSORS V=0"
 export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
 
 export PATH=$HOME/bin:$PATH
-export PATH=/home/kapil/softwares/cov-analysis-linux64-6.5.0/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/usr/lib:$LD_LIBRARY_PATH
 
 export DMTCP_HOST=localhost
